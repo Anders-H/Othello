@@ -1,9 +1,8 @@
-﻿namespace Othello
+﻿namespace Othello;
+
+public enum GameStatus
 {
-    public enum GameStatus
-    {
-        NotStarted,
-        PlayerTurnBlack,
-        ComputerTurnWhite
-    }
+    NotStarted,
+    PlayerTurnBlack,
+    ComputerTurnWhite
 }

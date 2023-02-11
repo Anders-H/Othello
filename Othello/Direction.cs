@@ -1,14 +1,13 @@
-﻿namespace Othello
+﻿namespace Othello;
+
+public enum Direction
 {
-    public enum Direction
-    {
-        North,
-        NorthEast,
-        East,
-        SouthEast,
-        South,
-        SouthWest,
-        West,
-        NorthWest
-    }
+    North,
+    NorthEast,
+    East,
+    SouthEast,
+    South,
+    SouthWest,
+    West,
+    NorthWest
 }

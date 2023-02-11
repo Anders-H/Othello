@@ -1,9 +1,8 @@
-﻿namespace Othello
+﻿namespace Othello;
+
+public enum Difficulty
 {
-    public enum Difficulty
-    {
-        Easy,
-        Medium,
-        Hard
-    }
+    Easy,
+    Medium,
+    Hard
 }

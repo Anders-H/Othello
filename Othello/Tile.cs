@@ -1,9 +1,8 @@
-﻿namespace Othello
+﻿namespace Othello;
+
+public enum Tile
 {
-    public enum Tile
-    {
-        None,
-        Black,
-        White
-    }
+    None,
+    Black,
+    White
 }
